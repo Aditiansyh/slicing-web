@@ -19,7 +19,7 @@
     --big-font: 2.8rem;
     --h2-font: 2.6rem;
     --p-font: 1.1rem;
-    --highlight-color: orange;
+    --highlight-color: ;
     --shadow-color: rgba(245, 245, 245, 0.884);
 }
 body {
@@ -264,7 +264,7 @@ section {
     margin-left: 25px;
 }
 .course-head .navbar a:hover {
-    background-color: var(--highlight-color);
+    background-color: orange;
     color: #ffffff;
 }
 .courses-grid {
@@ -387,6 +387,11 @@ section {
 }
 .highlight {
     color: var(--highlight-color);
+    background-color:linear-gradient(to bottom, #ffd700 20%, transparent 10%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-image: linear-gradient(to top, #ffd700 30%, transparent 0.5%);
 }
 
 .text-center .explore-section p{
@@ -512,8 +517,8 @@ section {
 }
 
 .events h2 span {
-    color: #f5a623;
-}
+    color: black;
+} 
 
 .event-cards {
     display: flex;
